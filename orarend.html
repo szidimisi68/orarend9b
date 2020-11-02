@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Órarend</title>
+    <style>
+        table {
+            width: 90%;
+            margin: auto;
+        }
+
+        caption {
+            font-size: 2.5em;
+            background-color: darksalmon;
+            color: maroon;
+            border-radius: 15px;
+            box-shadow: lightgray 9px 12px;
+            width: 60%;
+            margin: 0.5cm auto 1em;
+        }
+
+        thead {
+            background-color: lightgreen;
+            color: darkslategray;
+        }
+
+        tbody {
+            background-color: wheat;
+            color: brown;
+         
+        }
+
+        tfoot {
+            background-color: lightskyblue;
+            color: blue;
+        }
+
+        th {
+            font-weight: bolder;
+            width: 5%;
+            height: 1.6em;
+            border: 2px solid red;
+            border-radius: 10px;
+        }
+
+        td {
+            height: 1cm;
+            width:6%;
+            text-align: center;
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Heti órarend</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2"></th>
+                <th rowspan="2">Hétfő</th>
+                <th colspan="3">Kedd</th>
+                <th rowspan="2">Szerda</th>
+                <th rowspan="2" colspan="2">Csütörtök</th>
+                <th colspan="4">Péntek</th>
+                <th rowspan="2"></th>
+            </tr>
+            <tr>
+                <th>1.Csoport</th>
+                <th>2.Csoport</th>
+                <th>3.Csoport</th>
+                <th colspan="2">A Hét</th>
+                <th colspan="2">B Hét</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th>1.óra</th>
+                <td>Ofő</td>
+                <td rowspan="3">InfTáv</td>
+                <td rowspan="2">IKT</td>
+                <td rowspan="2">Programozási alapok</td>
+                <td>Fizika</td>
+                <td rowspan="2" colspan="2">Matematika</td>
+                <td colspan="4">Matematika</td>
+                <th colspan="2">8:30-9:10</th>
+            </tr>
+            <tr>
+                <th>2.óra</th>
+                <td rowspan="2">Történelem</td>
+                <td>Komplex természettudomány</td>
+                <td colspan="4">Fizika</td>
+                <th>9:20-10:00</th>
+            </tr>
+            <tr>
+                <th>3.óra</th>
+                <td rowspan="3">InfTáv</td>
+                <td>IKT</td>
+                <td>Matematika</td>
+                <td colspan="2">Komplex természettudomány</td>
+                <td rowspan="2">Digitális kultúra</td>
+                <td rowspan="2">Angol</td>
+                <td rowspan="2">Digitális kultúra</td>
+                <td rowspan="2">Angol</td>
+                <th>10:10-10:50</th>
+            </tr>
+            <tr>
+                <th>4.óra</th>
+                <td>Angol</td>
+                <td rowspan="2">Programozási alapok</td>
+                <td rowspan="3">InfTáv</td>
+                <td>Irodalom</td>
+                <td colspan="2">Magyar</td>
+                <th>11:05-11:45</th>
+            </tr>
+            <tr>
+                <th>5.óra</th>
+                <td>Testnevelés</td>
+                <td>Angol</td>
+                <td rowspan="2">Angol</td>
+                <td rowspan="2">Digitális kultúra</td>
+                <td colspan="4">Komplex természettudomány</td>
+                <th>11:55-12:35</th>
+            </tr>
+            <tr>
+                <th>6.óra</th>
+                <td>Irodalom</td>
+                <td rowspan="2">IKT</td>
+                <td rowspan="2">Programozási alapok</td>
+                <td rowspan="2">Testnevelés</td>
+                <td colspan="4">Történelem</td>
+                <th>12:45-13:25</th>
+            </tr>
+            <tr>
+                <th>7.óra</th>
+                <td>Magyar</td>
+                <td></td>
+                <td colspan="2">Testnevelés</td>
+                <td colspan="2">MunkIsm</td>
+                <td colspan="2"></td>
+                <th>13:30-14:10</th>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th rowspan="2"></th>
+                <th>Közismereti</th>
+                <th colspan="3">Gyakorlati nap</th>
+                <th colspan="7">Közismereti</th>
+                <th rowspan="2"></th>
+            </tr>
+            <tr>
+                <th colspan="11">Mechwart András Gépipari és Informatikai Technikum</th>
+            </tr>
+
+        </tfoot>
+    </table>
+</body>
+
+</html>
